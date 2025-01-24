@@ -1,0 +1,32 @@
+/* color refers to the text color, not the background */
+
+body {
+    background-color:honeydew;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 40px;
+    border: 5px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    color:rgb(25, 100, 100);
+    background-color: honeydew;
+    font-size: 30px;
+    text-align: center;
+}
+
+.special {
+    background-color: yellowgreen;
+}
+
+.highlight {
+    color: blue;
+}
+
+img {
+    max-width: 100%;
+}

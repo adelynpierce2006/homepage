@@ -1,0 +1,5 @@
+/* color refers to the text color, not the background */
+
+body {
+    background-color: aquamarine;
+}

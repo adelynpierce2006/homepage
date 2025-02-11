@@ -1,0 +1,91 @@
+/* color refers to the text color, not the background */
+
+body {
+    background-color: #ffffff;
+    /*opacity: 0.8;*/
+    background-image:  radial-gradient(#4d4d53 0.5px, transparent 0.5px), radial-gradient(#4d4d53 0.5px, #ffffff 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+}
+
+h1 {
+    font-family:'GFS Didot';
+    text-align: center;
+    font-size: 70px;
+    color: #333;
+}
+
+.secondTitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+
+.indexP {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid;
+    padding: 10px;
+    width: 40%;
+    background-color: #d2e5f3;
+    font-family:"Source Code Pro", serif;
+    border-color: #333;
+}
+
+.Subtitles {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.mainImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 4px solid;
+    border-color: #333;
+}
+
+p {
+    font-family:"Source Code Pro", serif;
+    text-align: center;
+}
+
+.otherSource {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-family: "Source Code Pro", serif;
+    background-color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #333;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffffff;
+
+}
+
+h3 {
+    font-family: "Source Code Pro", serif;
+    background-color: #ffffff;
+    font-weight: 450;
+    text-align: center;
+}
+
+.featurePages {
+    font-family: "Source Code Pro", serif;
+    background-color: #ffffff;
+    font-weight: 450;
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+    font-family: "Source Code Pro", serif;
+}

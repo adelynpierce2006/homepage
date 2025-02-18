@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+
+.container {
+    background-color: lightblue;
+    padding: 10px;
+    height: 600px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align items is used for single-line, non-wrapping flexboxes*/
+    align-items: flex-start;
+
+    /* align items is used for multi-line, wrapping flexboxes*/
+    align-content: flex-start;
+
+    gap: 30px;
+}
+
+.item {
+    background-color: bisque;
+    padding: 10px;
+    border: 1px solid;
+    width: 200px;
+    
+}

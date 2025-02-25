@@ -13,12 +13,29 @@ h1 {
     font-size: 100px;
 }
 
+.wall {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.wallimage1 {
+    background-image: url(painting.jpeg);
+    height: 100px;
+}
+
+.wallimage2 {
+    background-image: url(fish.jpg);
+    height: 100px;
+}
+
 .bookshelf {
        
     display: grid;
-    height: 600px;
+    height: 730px;
     width: 350px;
-    background-color: antiquewhite;
+    background-color: rgb(250, 243, 230);
     margin: 0% auto;
     border: 15px solid rgb(220, 193, 160);
     border-radius: 20px;
@@ -28,29 +45,43 @@ h1 {
 #shelf1 {
     display: flex;
     justify-content: space-around;
-    border: 7.5px solid rgb(220, 193, 160);
+    border: 10px solid rgb(220, 193, 160);
+    padding: 20px;
 }
 
 #shelf2 {
     display: flex;
     justify-content: space-around;
-    border: 7.5px solid rgb(220, 193, 160);
+    border: 10px solid rgb(220, 193, 160);
+    padding: 20px;
+    height: 125px;
 }
 
 #shelf3 {
     display: flex;
     justify-content: space-around;
-    border: 7.5px solid rgb(220, 193, 160);
+    border: 10px solid rgb(220, 193, 160);
+    padding: 20px;
 }
 
 #shelf4 {
-    border: 7.5px solid rgb(220, 193, 160);
-}
-
-#shelf5 {
-    border: 7.5px solid rgb(220, 193, 160);
+    display: flex;
+    justify-content: space-around;
+    border: 10px solid rgb(220, 193, 160);
+    padding: 20px;
+    height: 125px;
 }
 
 img {
     height: 125px;
+}
+
+.floor {
+   background-image: url(wood.jpg); 
+   width: 100%;
+ 
+}
+
+.audio {
+    align-content: center;
 }

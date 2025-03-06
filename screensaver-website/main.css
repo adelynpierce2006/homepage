@@ -1,0 +1,262 @@
+html {
+    background-color: black;
+}
+
+.Title {
+    color: rgb(231, 237, 225);
+    font-family: "puffin-arcade-loadout", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: xx-large;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+
+    
+}
+
+p {
+    color: rgb(49, 173, 49);
+    font-family: pixelify-sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: xx-large;
+    writing-mode: vertical-rl;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #b5e99d, 0 0 20px #94f06d, 0 0 30px;
+    animation-name: color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    transform: translateY(-170);
+    
+}
+
+@keyframes color {
+    0% {
+        color:rgb(49, 173, 49);
+    }
+    50% {
+        color: black;
+    }
+    100% {
+        color: rgb(49, 173, 49);
+    }
+}
+
+
+.MatrixGlitch {
+    display: flex;
+    margin: auto 0%;
+    justify-content: space-between;
+    ;
+}
+
+
+.Data1 {
+    max-width: 100%;
+    animation-name: data1;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes data1 {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(150%);}
+}
+
+.Data2 {
+    max-width: 100%;
+    transform: translateY(-100%);
+    animation-name: data2;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    
+}
+
+@keyframes data2 {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(150%);}
+}
+
+.Data3 {
+    max-width: 100%;
+    animation-name: data3;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes data3 {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(150%);}
+}
+
+.Data4 {
+    max-width: 100%;
+    animation-name: data4;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+@keyframes data4 {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(150%);}
+}
+
+.Data5 {
+    max-width: 100%;
+    animation-name: data5;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes data5 {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(150%);}
+}
+
+.Data6 {
+    max-width: 100%;
+    animation-name: data6;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes data6 {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(150%);}
+}
+
+.Data7 {
+    max-width: 100%;
+    animation-name: data7;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+@keyframes data7 {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(150%);}
+}
+
+.Data8 {
+    max-width: 100%;
+    transform: translateY(-100%);
+    animation-name: data8;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+}
+
+@keyframes data8 {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(150%);}
+}
+
+.Data9 {
+    max-width: 100%;
+    transform: translateY(-100%);
+    animation-name: data9;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+}
+
+@keyframes data9 {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(150%);}
+}
+
+.Data10 {
+    max-width: 100%;
+    animation-name: data10;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+@keyframes data10 {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(150%);}
+}
+
+.Data11 {
+    max-width: 100%;
+    animation-name: data11;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes data11 {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(150%);}
+}
+
+.Data12 {
+    max-width: 100%;
+    animation-name: data12;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    
+}
+
+@keyframes data12 {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(150%);}
+}
+
+.Data13 {
+    max-width: 100%;
+    animation-name: data13;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes data13 {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(150%);}
+}
+
+.Data14 {
+    max-width: 100%;
+    animation-name: data14;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    
+}
+
+@keyframes data14 {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(150%);}
+}
+
+.Data15 {
+    max-width: 100%;
+    transform: translateY(-100%);
+    animation-name: data15;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    
+}
+
+@keyframes data15 {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(150%);}
+}
+
+.Data16 {
+    max-width: 100%;
+    animation-name: data16;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+@keyframes data16 {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(150%);}
+}

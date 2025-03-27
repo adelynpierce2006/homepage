@@ -8,33 +8,37 @@
     </head>
 
     <body>
+
+        <button onclick="document.location.reload()">Restart</button>
+
+
         <div class="container">
             <div class="box" id="one">
-                <img src="plastic-bottle.png" class="trash">
+                <img src="plastic-bottle.png" id="draggable" class="trash" >
             </div>
             <div class="box" id="two">
-                <img src="beer-can.png" class="trash">
+                <img src="beer-can.png" id="draggable" class="trash">
             </div>
             <div class="box" id="three">
-                <img src="garbage.png" class="trash">
+                <img src="garbage.png" id="draggable" class="trash">
             </div>
             <div class="box" id="four">
-                <img src="recycle-bin.png" class="trash">
+                <img src="recycle-bin.png" id="draggable" class="trash">
             </div>
             <div class="box" id="five">
-                <img src="recycling-bag.png" class="trash">
+                <img src="recycling-bag.png" id="draggable" class="trash">
             </div>
             <div class="box" id="six">
-                <img src="sippy-cup.png" class="trash">
+                <img src="sippy-cup.png" id="draggable" class="trash">
             </div>
             <div class="box" id="seven">
-                <img src="soda-can.png" class="trash">
+                <img src="soda-can.png" id="draggable" class="trash">
             </div>
             <div class="box" id="eight">
-                <img src="trashbag.png" class="trash">
+                <img src="trashbag.png" id="draggable" class="trash">
             </div>
             <div class="box" id="nine">
-                <img src="waste.png" class="trash">
+                <img src="waste.png" id="draggable" class="trash">
             </div>
             <div class="box" id="ten">
                 <img src="mtwlogowithname_1100x.png" class="trashwheel">
@@ -42,6 +46,12 @@
 
 
         </div>
+
         <h1>Mr Trashwheel Collects Trash</h1>
+
+        <script src="jquery-3.7.1.min.js"></script>
+        <script src="jquery-ui.min.js"></script>
+        <script src="index.js"></script>
+
     </body>
 </html>

@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e5e5f7;
+    background-image: radial-gradient( ellipse farthest-corner at 10px 10px , #9ab9bf, #9ab9bf 50%, #e5e5f7 50%);
+    background-size: 10px 10px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: "puffin-arcade-liquid", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 80px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.trash
+{
+    height:120px;
+}
+
+.trashwheel 
+{
+    height:300px;
+}
+
+.box
+{
+    position: absolute;
+    overlay: auto;
+}
+
+.box#one
+{
+    top: 100px;
+    right: 60px;
+    animation: animate 2.5s linear infinite;
+}
+.box#two
+{
+    top: 100px;
+    right: 360px;
+    animation: animate 2.5s linear infinite;
+}
+.box#three
+{
+    top: 100px;
+    right: 700px;
+    animation: animate 2.5s linear infinite;
+}
+.box#four
+{
+    top: 100px;
+    left: 60px;
+    animation: animate 2.5s linear infinite;
+}
+.box#five
+{
+    top:100px;
+    left: 360px;
+    animation: animate 2.5s linear infinite;
+}
+.box#six
+{
+    bottom: 100px;
+    right: 60px;
+    animation: animate 2.5s linear infinite;
+}
+.box#seven
+{
+    bottom: 100px;
+    right: 360px;
+    animation: animate 2.5s linear infinite;
+}
+.box#eight
+{
+    bottom: 100px;
+    left: 360px;
+    animation: animate 2.5s linear infinite;
+}
+.box#nine
+{
+    bottom: 100px;
+    left: 60px;
+    animation: animate 2.5s linear infinite;
+}
+
+.box#ten 
+{
+    bottom: 50px;
+    left: 500px;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: translateY(-50px);
+    }
+    25%
+    {
+        transform: translateY(0px);
+    }
+    50%
+    {
+        transform: translateY(50px);
+    }
+    75%
+    {
+        transform: translateY(0px);
+    }
+    100%
+    {
+        transform: translateY(-50px);
+    }
+}
+

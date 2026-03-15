@@ -99,6 +99,7 @@ h1 {
     }
 }
 
+
 ul {
     margin-top: 0;
     margin-bottom: 0;
@@ -122,6 +123,18 @@ ul {
     font-style: normal;
     text-decoration: none;
 }
+
+a {
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: rgb(197, 204, 210);
+  }
+
+  .active {
+    text-decoration: underline;
+  }
 
 .description {
     bottom: 0;

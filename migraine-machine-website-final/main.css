@@ -4,9 +4,42 @@
 
 body {
     margin: 0;
-    background-color: #ffffff;
-    opacity: 1;
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 14px ), repeating-linear-gradient( #ddd8dc55, #ddd8dc );
+    background: #0c1c0b;
+    overflow: hidden;
+}
+
+/* animated layer */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+
+    background: radial-gradient(
+        circle at 40% 40%,
+        rgb(0, 0, 0) 0%,
+        rgb(41, 144, 84) 50%,
+        rgba(191, 98, 126, 1) 100%
+    );
+
+    background-size: 200% 200%;
+    filter: blur(40px);
+
+    animation: blobMove 1s ease-in-out infinite alternate;
+}
+
+@keyframes blobMove {
+    0% {
+        background-position: 30% 40%;
+    }
+
+    50% {
+        background-position: 70% 60%;
+    }
+
+    100% {
+        background-position: 50% 30%;
+    }
 }
 
 .scroller {
@@ -17,7 +50,7 @@ body {
     font-weight: 400;
     font-style: normal;
     color: rgb(30, 30, 70);
-    background-color: #e5e5f7;
+    background-color: aliceblue;
     width: 100%
 }
 
@@ -57,7 +90,7 @@ body {
 h1 {
     margin-top: 0;
     margin-bottom: 0;
-    color: #000000;
+    color: #e5e5f7;
     font-family: "puffin-arcade-liquid", sans-serif;
     font-weight: 800;
     font-style: normal;
@@ -90,13 +123,7 @@ ul {
     font-family: "lores-9-wide", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
-
-.blur {
-    font-family: "lores-9-wide", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #000000;  
+    text-decoration: none;
 }
 
 .description {
@@ -111,4 +138,5 @@ ul {
     width:100%;
 
 }
+
 

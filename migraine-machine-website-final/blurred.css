@@ -3,10 +3,9 @@
 }
 
 body {
-    margin: 0;
-    background-color: #ffffff;
+    background-color: aliceblue;
     opacity: 1;
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 14px ), repeating-linear-gradient( #ddd8dc55, #ddd8dc );
+    margin: 0;
 }
 
 .scroller {
@@ -17,7 +16,7 @@ body {
     font-weight: 400;
     font-style: normal;
     color: rgb(30, 30, 70);
-    background-color: #e5e5f7;
+    background-color:aliceblue;
     width: 100%
 }
 
@@ -63,7 +62,7 @@ h1 {
     font-style: normal;
     font-size: 80px;
     text-align: center; 
-    backdrop-filter: blur(4.5px);
+    backdrop-filter: blur(2px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     padding: 20px;
 
@@ -90,13 +89,7 @@ ul {
     font-family: "lores-9-wide", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
-
-.blur {
-    font-family: "lores-9-wide", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #000000;  
+    text-decoration: none;
 }
 
 .description {
@@ -112,3 +105,26 @@ ul {
 
 }
 
+.blur {
+    display: flex;
+    font-family: "lores-9-wide", sans-serif;
+    font-size: x-large;
+    font-style: normal;
+    color: rgb(30, 30, 70);
+    justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    animation: blurOut 3s ease-in-out infinite alternate;
+}
+
+@keyframes blurOut {
+    0% {
+        filter: blur(0px);
+    }
+
+    100% {
+        filter: blur(5px);
+    }
+}
